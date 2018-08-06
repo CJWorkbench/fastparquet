@@ -53,8 +53,8 @@ install_requires = open('requirements.txt').read().strip().split('\n')
 install_requires.append('pytest-runner')
 
 setup(
-    name='fastparquet',
-    version='0.1.5',
+    name='workbenchdata-fastparquet',
+    version='0.1.6a2',
     description='Python support for Parquet file format',
     author='Martin Durant',
     author_email='mdurant@continuum.io',
